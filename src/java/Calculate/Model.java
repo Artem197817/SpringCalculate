@@ -1,2 +1,9 @@
-package Calculate;public interface Model {
+package Calculate;
+
+public interface Model {
+    int result();
+
+    void setX(int value);
+
+    void setY(int value);
 }

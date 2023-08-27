@@ -1,4 +1,5 @@
 package Calculate;
 
-public class CalcModel {
+public abstract class CalcModel implements Model{
+    int x, y;
 }
